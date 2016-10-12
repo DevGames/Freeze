@@ -46,7 +46,7 @@ class Nawaf1b extends \pocketmine\plugin\PluginBase implements \pocketmine\event
         
         if(in_array(strtolower($ev->getPlayer()->getName()), $this->freeze)){
             $ev->setCancelled();
-            //$ev->getPlayer()->sendMessage("You Freezing");
+            //$ev->getPlayer()->sendMessage("You Freezing"); .
         }
     }
 }
